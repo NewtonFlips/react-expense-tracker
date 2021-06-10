@@ -1,0 +1,28 @@
+.expenseItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #2a2a2a;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+.expenseInfo {
+  flex: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expenseInfo div {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 0.1rem solid #fff;
+  background-color: #4d004d;
+  border-radius: 1rem;
+}

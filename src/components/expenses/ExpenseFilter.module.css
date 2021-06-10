@@ -1,0 +1,17 @@
+.expenseFilterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+}
+
+.expenseFilterContainer select {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 0.8rem;
+}
+
+.expenseFilterContainer h2 {
+  font-size: 3rem;
+}

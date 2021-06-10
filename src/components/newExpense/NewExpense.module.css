@@ -1,0 +1,44 @@
+.fieldsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expenseField {
+  width: 100%;
+}
+
+.expenseField:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.expenseField label {
+  display: block;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.expenseField input {
+  padding: 1rem;
+  width: 100%;
+}
+
+.actionsContainer {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.actionsContainer button {
+  cursor: pointer;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  background-color: #4d004d;
+  color: #fff;
+}
+
+.actionsContainer button:not(:last-child) {
+  margin-right: 1rem;
+}

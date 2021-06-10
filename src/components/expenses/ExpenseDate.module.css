@@ -1,0 +1,15 @@
+.expenseDate {
+  flex: 0.15;
+  color: #000;
+  text-align: center;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  background-color: #444;
+  font-size: 2rem;
+  padding: 1rem 0;
+  margin-right: 4rem;
+}
+
+.expenseDate h3 {
+  font-size: 3.5rem;
+}

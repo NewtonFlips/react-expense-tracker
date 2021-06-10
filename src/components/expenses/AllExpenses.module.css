@@ -1,0 +1,13 @@
+.allExpenses {
+  padding: 1.5rem 2rem;
+  padding-top: 3rem;
+  background-color: #111;
+  border-radius: 1.5rem;
+}
+
+.noExpenses {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+}
